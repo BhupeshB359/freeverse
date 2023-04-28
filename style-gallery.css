@@ -1,0 +1,22 @@
+.images {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 100px;
+    align-content: space-evenly;
+}
+.images > div {
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height:250px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 40px;
+}
+.img-1 {background-image: url(a.jpg);}
+.img-2 {background-image: url(b.jpeg);}
+.img-3 {background-image: url(c.jpg);}
+.img-4 {background-image: url(d.jpg);}
+.img-5 {background-image: url(e.jpg);}
+.img-6 {background-image: url(f.jpg);}

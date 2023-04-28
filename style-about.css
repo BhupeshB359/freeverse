@@ -1,0 +1,64 @@
+.about > .first > .text > pre {
+    font-size: 24px;
+    }
+.about > .first > .text > h3 {
+        font-size: 30px;
+    }
+.about > .first > .text {
+    padding: 8px;
+    width: 55%;
+    height: 60vh;
+    color: aqua;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.6);
+    margin: 70px 0 0 40px;
+    background-color: rgba(137, 43, 226, 0.6);
+}
+.about > .first > .img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: url(z.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    right: 100px;
+    outline: 5px solid blue;
+}
+ul > li {
+    list-style: none;
+    font-size: 25px;
+}
+.second > a > button:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.second > a:hover {
+    animation: pop 0.4s linear;
+}
+.second > a > button {
+    border: none;
+    background-color: white;
+    font-size: 40px;
+}
+.second > a {
+    box-shadow: 1px 0px 4px 0px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    background-color: white;
+    padding: 4px;
+}
+.second {
+    bottom: 30px;
+    display: flex;
+    width: 40%;
+    position: absolute;
+    right: 30%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+@keyframes pop {
+    0%,  100% {-webkit-transform: translateY(0px);} 
+    50% {-webkit-transform: translateY(-20px);}
+}
+
